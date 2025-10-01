@@ -23,11 +23,44 @@ export default function Blog() {
         {filtered
           .sort((a,b)=>new Date(b.date)-new Date(a.date))
           .map(p => (
-          <li key={p.slug} style={{ border: "1px solid #eee", borderRadius: 8, padding: 16 }}>
+          <li
+            key={p.slug}
+            style={{
+              border: "1px solid #eee",
+              borderRadius: 8,
+              padding: 16,
+              position: "relative",
+              minHeight: 120
+            }}
+          >
             <h3><Link to={`/blog/${p.slug}`}>{p.title}</Link></h3>
-            <small>{new Date(p.date).toLocaleDateString()} — {p.tags.join(", ")}</small>
             <p>{p.excerpt}</p>
             <Link to={`/blog/${p.slug}`}>Lees meer →</Link>
+            <div
+              style={{
+                position: "absolute",
+                right: 16,
+                bottom: 16,
+                display: "flex",
+                gap: 6,
+                flexWrap: "wrap"
+              }}
+            >
+              {p.tags.map(tag => (
+                <span
+                  key={tag}
+                  style={{
+                    background: "#f3f3f3",
+                    borderRadius: 4,
+                    padding: "2px 8px",
+                    fontSize: "0.85em",
+                    color: "#555"
+                  }}
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
           </li>
         ))}
       </ul>
