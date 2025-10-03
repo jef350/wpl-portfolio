@@ -1,0 +1,123 @@
+:root {
+  --panel: #12172a;
+  --muted: #b9c1ff;
+  --brand-1: #6c74ff;
+  --brand-2: #5160ff;
+}
+
+.blog-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+
+.blog-header {
+  margin-bottom: 18px;
+  color: #eef1ff;
+  font-size: clamp(32px, 4vw, 44px);
+  letter-spacing: -0.02em;
+}
+
+.blog-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px 0 22px;
+}
+
+.blog-tag-btn {
+  background: rgba(255,255,255,.06);
+  color: #eef1ff;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-weight: 700;
+  transition: background .18s, color .18s, border-color .18s;
+  cursor: pointer;
+}
+.blog-tag-btn:disabled {
+  background: linear-gradient(90deg, var(--brand-1), var(--brand-2));
+  color: #fff;
+  border-color: var(--brand-1);
+  cursor: default;
+}
+.blog-tag-btn:hover:not(:disabled) {
+  background: rgba(108,116,255,.18);
+  color: #fff;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+}
+
+.blog-card {
+  background: #161c39;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 14px;
+  padding: 22px 18px 32px 18px;
+  color: #dfe3ff;
+  position: relative;
+  min-height: 120px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.18);
+  transition: transform .08s, box-shadow .18s, border-color .18s, background .18s;
+}
+.blog-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(108,116,255,.3);
+  box-shadow: 0 16px 40px rgba(0,0,0,.26);
+  background: #1a2144;
+}
+
+.blog-card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: #eef1ff;
+}
+.blog-card h3 a { color: inherit; text-decoration: none; }
+.blog-card h3 a:hover { text-decoration: underline; }
+
+.blog-card p {
+  margin: 0 0 10px;
+  color: #cfd5ff;
+  font-size: 15px;
+}
+
+.blog-card .lees-meer {
+  color: var(--brand-1);
+  font-weight: 700;
+  text-decoration: none;
+  transition: color .18s;
+}
+.blog-card .lees-meer:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.blog-tags-list {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.blog-tag {
+  background: #232a4a;
+  border-radius: 4px;
+  padding: 2px 10px;
+  font-size: 0.85em;
+  color: #b9c1ff;
+  font-weight: 700;
+}
+
+@media (max-width: 980px) {
+  .blog-wrap { padding: 24px 8px 48px; }
+  .blog-list { gap: 12px; }
+}
+
+@media (max-width: 720px) {
+  .blog-card { padding: 14px 10px 28px 10px; }
+}
