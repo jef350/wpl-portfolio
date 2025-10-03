@@ -6,7 +6,7 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Blog from "./pages/Blog.jsx";
 import Post from "./pages/Post.jsx";
-import "./index.css";
+import './styles/index.css';
 
 const router = createBrowserRouter([
   { element: <App />, children: [

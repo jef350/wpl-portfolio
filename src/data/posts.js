@@ -6,7 +6,8 @@ export const TAGS = [
   "planning",
   "probleem",
   "oplossing",
-  "reflectie"
+  "reflectie",
+  "fails"
 ];
 
 export const posts = [
