@@ -24,14 +24,6 @@ export default function Home() {
             <li><span>DeskDrive</span> bedrijf</li>
           </ul>
         </div>
-        <div className="hero-card">
-          <h3>Wat vind je hier?</h3>
-          <ul>
-            <li>Wekelijkse updates & reflecties</li>
-            <li>Code-snippets en leermomenten</li>
-            <li>Wins, fails & lessons learned</li>
-          </ul>
-        </div>
       </div>
 
       {latest && (
