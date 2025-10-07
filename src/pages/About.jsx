@@ -11,8 +11,7 @@ export default function About() {
           <p className="about__subtitle">Graduaat Programmeren — Full-stack stagiair</p>
           <p>
             Ik ben Jef, graduaat Programmeren student. Tijdens deze WPL werk ik als
-            <strong> full-stack stagiair</strong> bij <strong>DeskDrive</strong>, met focus op
-            API’s, React en integraties.
+            <strong> full-stack stagiair</strong> bij <strong>DeskDrive</strong>.
           </p>
         </div>
       </header>
@@ -22,8 +21,8 @@ export default function About() {
           <h2>Stage & Bedrijf</h2>
           <ul className="list">
             <li><strong>Bedrijf:</strong> DeskDrive</li>
-            <li><strong>Rol:</strong> Full-stack stagiair — API’s, React, integraties</li>
-            <li><strong>Taken:</strong> features bouwen, koppelingen testen, documenteren</li>
+            <li><strong>Rol:</strong> Full-stack stagiair</li>
+            <li><strong>Taken:</strong>koppelingen testen, documenteren</li>
           </ul>
         </article>
 
@@ -34,7 +33,7 @@ export default function About() {
               <h3>Frontend</h3>
               <ul className="list">
                 <li>React (Vite), React Router</li>
-                <li>HTML, CSS, Tailwind</li>
+                <li>HTML, CSS</li>
                 <li>JavaScript / TypeScript</li>
               </ul>
             </div>

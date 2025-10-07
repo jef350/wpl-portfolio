@@ -13,7 +13,7 @@ export const TAGS = [
 export const posts = [
   {
     slug: "week-1-crm-erp-ai-en-eerste-modules",
-    title: "Week 1 — CRM & ERP, AI-vergadering en eerste modules",
+    title: "Week 1 — Kick-off bij DeskDrive",
     date: "2025-10-03",
     tags: ["lessons learned", "reflectie", "code", "planning", "wins"],
     excerpt: "Eerste week bij DeskDrive: kennismaking met CRM en ERP, werken met modules, een AI-vergadering gevolgd en de eerste stappen gezet in mijn blog en testschrijven.",
@@ -22,8 +22,8 @@ export const posts = [
 - Leren werken met het DeskDrive platform en gestart met de modules.
 - Vergadering gevolgd over de implementatie van AI binnen DeskDrive.
 - Met medestagiairs samengewerkt en overleg gehad rond de gemaakte modules.
-- Aan mijn eigen website/blog gewerkt en daar verbeteringen doorgevoerd.
-- Tests geschreven voor DeskDrive om de werking van onderdelen te verifiëren.
+- Aan mijn eigen website/blog gewerkt en daar verandering doorgevoerd.
+- Tests geschreven voor componenten binnen DeskDrive.
 
 ## Lessons learned
 - CRM en ERP: beter begrip van wat ze precies doen en hoe ze verschillen.
@@ -31,7 +31,7 @@ export const posts = [
 - Inzicht in hoe AI in een bedrijfscontext kan worden toegepast.
 
 ## Reflectie
-De eerste week was intens maar leerrijk. Theorie en praktijk wisselden elkaar goed af: nieuwe concepten leren en meteen toepassen. De AI-vergadering gaf mij ook een bredere kijk op de toekomstplannen van het bedrijf.
+De eerste week was intens maar leerrijk. nieuwe concepten leren en meteen toepassen. De AI-vergadering gaf mij ook een bredere kijk op de toekomstplannen van het bedrijf.
 
 ## Planning
 - Verder verdiepen in de modules van DeskDrive.

@@ -55,6 +55,7 @@ export default function Post() {
         <h1 className="post-title">{post.title}</h1>
         <div className="post-meta">
           <span className="post-date">{date}</span>
+          <span className="post-sep">|</span>
           <div className="post-tags">
             {post.tags?.map(t => (
               <span key={t} className="post-tag">{t}</span>
