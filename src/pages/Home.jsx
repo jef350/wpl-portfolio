@@ -6,6 +6,7 @@ export default function Home() {
   const latest = [...posts].sort((a, b) => new Date(b.date) - new Date(a.date))[0];
 
   return (
+    
     <section className="home-wrap">
       <div className="home-banner">
         <div className="hero-text">
