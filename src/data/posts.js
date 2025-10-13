@@ -38,7 +38,7 @@ De eerste week was intens maar leerrijk. nieuwe concepten leren en meteen toepas
 - Meer tests schrijven en bestaande code verbeteren.
 - Website/blog verder uitbreiden en publiceren.
 - Nieuwe inzichten rond CRM/ERP gebruiken in de komende opdrachten.`
-  }
+  },
   {
   slug: "week-2-java-tests-en-vergadering-met-tonny",
   title: "Week 2 — Vastlopen met java en vergadering met Tonny",
