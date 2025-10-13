@@ -39,6 +39,32 @@ De eerste week was intens maar leerrijk. nieuwe concepten leren en meteen toepas
 - Website/blog verder uitbreiden en publiceren.
 - Nieuwe inzichten rond CRM/ERP gebruiken in de komende opdrachten.`
   }
+  {
+  slug: "week-2-java-tests-en-vergadering-met-tonny",
+  title: "Week 2 — Vastlopen met java en vergadering met Tonny",
+  date: "2025-10-10",
+  tags: ["lessons learned", "reflectie", "code", "probleem", "planning"],
+  excerpt: "Tweede week bij DeskDrive: begonnen met Java om betere tests te schrijven, wat uitdagend was door de nieuwe taal en IntelliJ. Verder een overleg gehad met Tonny over wat er precies getest moet worden.",
+  content: `## Highlights
+- Gestart met het leren van **Java** om betere automatische testen te kunnen schrijven.
+- Moeite gehad met de nieuwe taal en het werken in **IntelliJ IDEA**.
+- Vergadering met **Tonny** gehad over de testaanpak en prioriteiten.
+- Duidelijk beeld gekregen van wat volgende week moet worden uitgewerkt.
+
+## Lessons learned
+- Basis van Java beter leren begrijpen in functie van testautomatisatie.
+- Inzicht gekregen in hoe testen worden opgebouwd binnen DeskDrive.
+- Belang van goede communicatie met de verantwoordelijke (Tonny) om verwachtingen af te stemmen.
+
+## Reflectie
+Deze week was wat moeilijker door de overstap naar Java en de onbekende omgeving van IntelliJ. Toch voelde het goed om meer inzicht te krijgen in hoe de testen werken en wat er verwacht wordt. De meeting met Tonny hielp om richting te geven aan mijn volgende stappen.
+
+## Planning
+- Verder oefenen met Java en IntelliJ om vlotter tests te kunnen schrijven.
+- Starten met het implementeren van de besproken testen.
+- Feedbackmoment plannen om de eerste resultaten te overlopen.`
+}
+
 ];
 
 export const allTags = TAGS;
