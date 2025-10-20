@@ -40,12 +40,12 @@ De eerste week was intens maar leerrijk. nieuwe concepten leren en meteen toepas
 - Nieuwe inzichten rond CRM/ERP gebruiken in de komende opdrachten.`
   },
   {
-  slug: "week-2-java-tests-en-vergadering-met-tonny",
-  title: "Week 2 — Vastlopen met java en vergadering met Tonny",
-  date: "2025-10-10",
-  tags: ["lessons learned", "reflectie", "code", "probleem", "planning"],
-  excerpt: "Tweede week bij DeskDrive: begonnen met Java om betere tests te schrijven, wat uitdagend was door de nieuwe taal en IntelliJ. Verder een overleg gehad met Tonny over wat er precies getest moet worden.",
-  content: `## Highlights
+    slug: "week-2-java-tests-en-vergadering-met-tonny",
+    title: "Week 2 — Vastlopen met Java en vergadering met Tonny",
+    date: "2025-10-10",
+    tags: ["lessons learned", "reflectie", "code", "probleem", "planning"],
+    excerpt: "Tweede week bij DeskDrive: begonnen met Java om betere tests te schrijven, wat uitdagend was door de nieuwe taal en IntelliJ. Verder een overleg gehad met Tonny over wat er precies getest moet worden.",
+    content: `## Highlights
 - Gestart met het leren van **Java** om betere automatische testen te kunnen schrijven.
 - Moeite gehad met de nieuwe taal en het werken in **IntelliJ IDEA**.
 - Vergadering met **Tonny** gehad over de testaanpak en prioriteiten.
@@ -63,8 +63,38 @@ Deze week was wat moeilijker door de overstap naar Java en de onbekende omgeving
 - Verder oefenen met Java en IntelliJ om vlotter tests te kunnen schrijven.
 - Starten met het implementeren van de besproken testen.
 - Feedbackmoment plannen om de eerste resultaten te overlopen.`
-}
+  },
+  {
+    slug: "week-3-eerste-volledige-test-en-betere-inzichten",
+    title: "Week 3 — Eerste volledige test en beter inzicht in DeskDrive",
+    date: "2025-10-17",
+    tags: ["wins", "code", "reflectie", "lessons learned", "oplossing"],
+    excerpt: "Derde week bij DeskDrive: voor het eerst volledig zelfstandig een test geschreven, beter begrip gekregen van de structuur en werking van het project.",
+    content: `## Highlights
+- Voor de eerste keer volledig zelf een test geschreven voor een tab in het DeskDrive-programma.
+- Zelfstandig nieuwe bestanden aangemaakt en de volledige flow opgebouwd van aanmaak tot uitvoering.
+- Beter inzicht gekregen in hoe de onderdelen binnen het project samenwerken en waar informatie te vinden is.
+- Begonnen met het toevoegen van commentaar voor screenshots en visuele uitleg in de code.
 
+![Overzicht van de nieuwe testbestanden](/week3-1.png)
+----------------------------------------------------------------------------------------------
+![Resultaat van de uitgevoerde test in IntelliJ](/week3-2.png)
+----------------------------------------------------------------------------------------------
+![Fragment van de code met commentaar](/week3-3.png)
+
+## Lessons learned
+- Meer vertrouwen gekregen in het schrijven van testen in Java.
+- Begrip opgebouwd van hoe de tabstructuur en methodes binnen DeskDrive werken.
+- Leren omgaan met fouten en zelf oplossingen zoeken door het project te verkennen.
+
+## Reflectie
+Na wat vastlopen is het gelukt om volledig zelf een werkende test te schrijven. Dit voelde als een belangrijke stap vooruit. Het is nu veel duidelijker hoe de verschillende delen van het project met elkaar verbonden zijn en hoe ik sneller informatie kan vinden.
+
+## Planning
+- Nieuwe testen schrijven op basis van de opgedane kennis.
+- Commentaar en screenshots toevoegen om de werking te documenteren.
+- Feedback vragen over de structuur van mijn code en verbeterpunten bespreken.`
+  }
 ];
 
 export const allTags = TAGS;

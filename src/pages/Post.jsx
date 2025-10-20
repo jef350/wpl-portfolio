@@ -30,6 +30,16 @@ function renderContent(md) {
       blocks.push(<h2 key={`h2-${key++}`}>{line.slice(3)}</h2>);
       continue;
     }
+    if (line.startsWith("![")) {
+      flushList();
+      // Parse markdown image: ![alt text](src)
+      const imgMatch = line.match(/!\[([^\]]*)\]\(([^)]+)\)/);
+      if (imgMatch) {
+        const [, alt, src] = imgMatch;
+        blocks.push(<img key={`img-${key++}`} src={src} alt={alt} className="post-image" />);
+      }
+      continue;
+    }
     if (line.startsWith("- ")) {
       list.push(line.slice(2));
       continue;
