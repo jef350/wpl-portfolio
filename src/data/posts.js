@@ -94,6 +94,35 @@ Na wat vastlopen is het gelukt om volledig zelf een werkende test te schrijven. 
 - Nieuwe testen schrijven op basis van de opgedane kennis.
 - Commentaar en screenshots toevoegen om de werking te documenteren.
 - Feedback vragen over de structuur van mijn code en verbeterpunten bespreken.`
+  },
+  {
+    slug: "week-4-tests-vlot-en-workaround-voor-j_id",
+    title: "Week 4 — Tests lopen vlot; workaround voor j_id en samenwerken aan update-functie",
+    date: "2025-10-24",
+    tags: ["code", "probleem", "oplossing", "wins", "reflectie", "lessons learned", "planning"],
+    excerpt: "Week 4: tests schrijven ging vlotter, een probleem met dynamische j_id's vertraagde het werk maar een XPath-workaround hielp verder; samen met alle stagiairs aan een update-functie gewerkt.",
+    content: `## Highlights
+- Tests schrijven ging deze week veel vlotter. 
+- In het begin van de week liep ik vaak vast op een veranderende id genaamd **j_id**: omdat die waarde steeds verschillend was kon ik elementen niet aanspreken in tests.
+- We vroegen Tonny om de j_id te veranderen naar een vaste id, maar dat betekende vertraging.
+- Een collega vertelde me over **XPath** als alternatieve selector; daarmee kon ik tijdelijk verder werken zonder afhankelijk te zijn van de j_id.
+- Samen met alle 3 stagiairs kreeg ik de kans op de pc van een collega een update-functie te maken binnen het DeskDrive-domein en zelf later aanpassingen te maken binnen een domein voor een nieuw bedrijf.
+
+![Overzicht van week 4 met de update-functie](/week4.png)
+
+## Lessons learned
+- Dynamische id's zoals j_id kunnen testautomatisatie blokkeren.
+- XPath kan een snelle en praktische tijdelijke oplossing bieden wanneer id's niet betrouwbaar zijn.
+- Communicatie met de verantwoordelijke (Tonny) is nodig voor veranderingen, maar tijdelijke workarounds houden voortgang mogelijk.
+- Samenwerken in een groep van 3 stagiairs geeft een breder zicht op de verschillende aspecten en zorgt voor een vlottere werking.
+
+## Reflectie
+Deze week liet me zien dat technische beperkingen (zoals veranderende ids) workflow kunnen vertragen, maar dat praktische kennis van alternatieve technieken (XPath) snel vooruitgang mogelijk maakt. Het was ook motiverend om samen met zoveel collega's aan een echte feature te werken; dat gaf meer inzicht in de wijzigingen binnen het DeskDrive-domein.
+
+## Planning
+- Waar mogelijk stabiele selectors gebruiken in nieuwe tests (XPath).
+- Meer tests schrijven voor de update-functie die we hebben toegevoegd en feedback ophalen van het team.
+- Documentatie toevoegen over de XPath-workarounds en aanbevolen selectors.`
   }
 ];
 
