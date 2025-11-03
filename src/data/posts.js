@@ -123,7 +123,36 @@ Deze week liet me zien dat technische beperkingen (zoals veranderende ids) workf
 - Waar mogelijk stabiele selectors gebruiken in nieuwe tests (XPath).
 - Meer tests schrijven voor de update-functie die we hebben toegevoegd en feedback ophalen van het team.
 - Documentatie toevoegen over de XPath-workarounds en aanbevolen selectors.`
-  }
+  },
+  {
+  slug: "week-5-bug-gevonden-offerte-template-en-tussentijdse-evaluatie",
+  title: "Week 5 — Bug gevonden, offerte template gemaakt en tussentijdse evaluatie",
+  date: "2025-10-31",
+  tags: ["probleem", "oplossing", "code", "feedback", "lessons learned", "reflectie", "planning"],
+  excerpt: "Week 5: belangrijke bug ontdekt tijdens testen, offerte template ontwikkeld voor nieuwe klant, tussentijdse evaluatie gehad en bedrijf gebeld voor ontbrekende informatie.",
+  content: `## Highlights
+- **Probleem ontdekt**: tijdens het testen een knop gevonden die 2 keer aangeklikt moet worden voordat deze werkt. Dit probleem genoteerd en gemeld aan Tonny.
+- **Offerte template** gemaakt voor een nieuwe klant.
+- **Tussentijdse evaluatie** gehad met feedback en werkpunten om aan te werken.
+- **Grote bug gevonden** tijdens het testen - dit was vrij groot en direct gemeld aan Tonny.
+- Testen **uitgebreid gedocumenteerd** voor betere traceerbaarheid.
+- **Bedrijf gebeld** om te vragen naar missende informatie die nodig was voor het project.
+
+## Lessons learned
+- Belang van grondige documentatie bij het vinden van bugs - details helpen bij het oplossen.
+- Directe communicatie met de verantwoordelijke (Tonny) is cruciaal bij het vinden van significante problemen.
+- Proactief contact opnemen met externe partijen (bedrijf bellen) kan workflow versnellen.
+- Tussentijdse evaluaties geven waardevolle feedback voor persoonlijke ontwikkeling.
+
+## Reflectie
+Deze week stond in het teken van het vinden en melden van problemen. Het was goed om te zien dat mijn testen daadwerkelijk bugs aan het licht brengen - dat bevestigt de waarde van het testwerk. De tussentijdse evaluatie gaf ook nuttige inzichten in waar ik kan verbeteren. Het maken van de offerte template was een leuke afwisseling van het testwerk.
+
+## Planning
+- Aan de slag gaan met de werkpunten uit de tussentijdse evaluatie.
+- Opvolging van de gemelde bugs en kijken hoe deze worden opgelost.
+- Verdere uitbreiding van testdocumentatie en meer gestructureerd rapporteren van gevonden problemen.
+- Meer offerte templates maken indien nodig voor andere klanten.`
+}
 ];
 
 export const allTags = TAGS;
