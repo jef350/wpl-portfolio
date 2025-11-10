@@ -46,9 +46,9 @@ De eerste week was intens maar leerrijk. nieuwe concepten leren en meteen toepas
     tags: ["lessons learned", "reflectie", "code", "probleem", "planning"],
     excerpt: "Tweede week bij DeskDrive: begonnen met Java om betere tests te schrijven, wat uitdagend was door de nieuwe taal en IntelliJ. Verder een overleg gehad met Tonny over wat er precies getest moet worden.",
     content: `## Highlights
-- Gestart met het leren van **Java** om betere automatische testen te kunnen schrijven.
-- Moeite gehad met de nieuwe taal en het werken in **IntelliJ IDEA**.
-- Vergadering met **Tonny** gehad over de testaanpak en prioriteiten.
+- Gestart met het leren van Java om betere automatische testen te kunnen schrijven.
+- Moeite gehad met de nieuwe taal en het werken in IntelliJ IDEA.
+- Vergadering met Tonny gehad over de testaanpak en prioriteiten.
 - Duidelijk beeld gekregen van wat volgende week moet worden uitgewerkt.
 
 ## Lessons learned
@@ -103,9 +103,9 @@ Na wat vastlopen is het gelukt om volledig zelf een werkende test te schrijven. 
     excerpt: "Week 4: tests schrijven ging vlotter, een probleem met dynamische j_id's vertraagde het werk maar een XPath-workaround hielp verder; samen met alle stagiairs aan een update-functie gewerkt.",
     content: `## Highlights
 - Tests schrijven ging deze week veel vlotter. 
-- In het begin van de week liep ik vaak vast op een veranderende id genaamd **j_id**: omdat die waarde steeds verschillend was kon ik elementen niet aanspreken in tests.
+- In het begin van de week liep ik vaak vast op een veranderende id genaamd j_id: omdat die waarde steeds verschillend was kon ik elementen niet aanspreken in tests.
 - We vroegen Tonny om de j_id te veranderen naar een vaste id, maar dat betekende vertraging.
-- Een collega vertelde me over **XPath** als alternatieve selector; daarmee kon ik tijdelijk verder werken zonder afhankelijk te zijn van de j_id.
+- Een collega vertelde me over XPath als alternatieve selector; daarmee kon ik tijdelijk verder werken zonder afhankelijk te zijn van de j_id.
 - Samen met alle 3 stagiairs kreeg ik de kans op de pc van een collega een update-functie te maken binnen het DeskDrive-domein en zelf later aanpassingen te maken binnen een domein voor een nieuw bedrijf.
 
 ![Overzicht van week 4 met de update-functie](/week4.png)
@@ -131,16 +131,16 @@ Deze week liet me zien dat technische beperkingen (zoals veranderende ids) workf
   tags: ["probleem", "oplossing", "code", "feedback", "lessons learned", "reflectie", "planning"],
   excerpt: "Week 5: belangrijke bug ontdekt tijdens testen, offerte template ontwikkeld voor nieuwe klant, tussentijdse evaluatie gehad en bedrijf gebeld voor ontbrekende informatie.",
   content: `## Highlights
-- **Probleem ontdekt**: tijdens het testen een knop gevonden die 2 keer aangeklikt moet worden voordat deze werkt. Dit probleem genoteerd en gemeld aan Tonny.
-- **Offerte template** gemaakt voor een nieuwe klant.
-- **Tussentijdse evaluatie** gehad met feedback en werkpunten om aan te werken.
-- **Grote bug gevonden** tijdens het testen - dit was vrij groot en direct gemeld aan Tonny.
-- Testen **uitgebreid gedocumenteerd** voor betere traceerbaarheid.
-- **Bedrijf gebeld** om te vragen naar missende informatie die nodig was voor het project.
+- Probleem ontdekt: tijdens het testen een knop gevonden die 2 keer aangeklikt moet worden voordat deze werkt. Dit probleem genoteerd en gemeld aan Tonny.
+- Offerte template gemaakt voor een nieuwe klant.
+- Tussentijdse evaluatie gehad met feedback en werkpunten om aan te werken.
+- Grote bug gevonden tijdens het testen - dit was vrij groot en direct gemeld aan Tonny.
+- Testen uitgebreid gedocumenteerd voor betere traceerbaarheid.
+- Bedrijf gebeld om te vragen naar missende informatie die nodig was voor het project.
 
 ## Lessons learned
 - Belang van grondige documentatie bij het vinden van bugs - details helpen bij het oplossen.
-- Directe communicatie met de verantwoordelijke (Tonny) is cruciaal bij het vinden van significante problemen.
+- Directe communicatie met de verantwoordelijke (Tonny) is cruciaal bij het oplossen van grote problemen.
 - Proactief contact opnemen met externe partijen (bedrijf bellen) kan workflow versnellen.
 - Tussentijdse evaluaties geven waardevolle feedback voor persoonlijke ontwikkeling.
 
@@ -152,6 +152,34 @@ Deze week stond in het teken van het vinden en melden van problemen. Het was goe
 - Opvolging van de gemelde bugs en kijken hoe deze worden opgelost.
 - Verdere uitbreiding van testdocumentatie en meer gestructureerd rapporteren van gevonden problemen.
 - Meer offerte templates maken indien nodig voor andere klanten.`
+},
+{
+  slug: "week-6-refactoring-multi-domain-tests-en-freemarker",
+  title: "Week 6 — Refactoring van tests, multi-domain support en nieuwe uitdaging met FreeMarker",
+  date: "2025-11-07",
+  tags: ["code", "lessons learned", "planning", "probleem", "reflectie"],
+  excerpt: "Week 6: alle testen gerefactored na belangrijke aanpassingen van Tonny, tests uitgebreid voor meerdere domeinen, meeting gepland voor Ella met klant, en gestart aan ingewikkelde taak met FreeMarker.",
+  content: `## Highlights
+- Volledige refactoring van alle testen uitgevoerd dankzij belangrijke aanpassingen die Tonny had doorgevoerd om het testen makkelijker te maken.
+- Tests aangepast om op meerdere domeinen te kunnen werken - grotere flexibiliteit en herbruikbaarheid.
+- Meeting gepland met een klant voor Ella (co-baas) - eerste keer dat ik betrokken was bij klantplanning.
+- Gestart aan een vrij ingewikkelde taak voor een klant die deels in FreeMarker geschreven moet worden - een technologie die ik nog niet ken.
+- Taak moet volgende week afgerond zijn, wat extra druk geeft maar ook een goede leermogelijkheid is.
+
+## Lessons learned
+- Refactoring kan veel tijd kosten maar maakt de codebase op lange termijn veel beter onderhoudbaar.
+- Tests schrijven die werken op meerdere domeinen vereist meer abstractie en goed doordachte structuur.
+- FreeMarker is een nieuwe template engine die ik moet leren voor klantprojecten.
+- Soms moet je werken met technologieën die je nog niet kent en dat betekent extra tijd inplannen voor leren.
+
+## Reflectie
+Deze week was intensief door de grote refactoring, maar het voelt goed dat de tests nu veel beter gestructureerd zijn. De aanpassingen van Tonny maakten het werk duidelijk eenvoudiger. Het starten aan de FreeMarker-taak was uitdagend omdat ik de technologie nog niet ken, maar ik zie het als een goede kans om iets nieuws te leren. De deadline van volgende week zorgt wel voor wat druk.
+
+## Planning
+- Prioriteit: de FreeMarker-taak afronden voor de deadline volgende week.
+- Mezelf verdiepen in FreeMarker door documentatie en voorbeelden te bekijken.
+- Feedback vragen over de gerefactorde tests en kijken of er nog verbeteringen nodig zijn.
+- Opvolging van de geplande meeting met de klant en kijken wat daaruit komt.`
 }
 ];
 
