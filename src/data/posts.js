@@ -180,7 +180,47 @@ Deze week was intensief door de grote refactoring, maar het voelt goed dat de te
 - Mezelf verdiepen in FreeMarker door documentatie en voorbeelden te bekijken.
 - Feedback vragen over de gerefactorde tests en kijken of er nog verbeteringen nodig zijn.
 - Opvolging van de geplande meeting met de klant en kijken wat daaruit komt.`
-}
+},
+{
+    slug: "week-7-freemarker-handler-ai-workshop",
+    title: "Week 7 — Handler bouwen in FreeMarker en veel geleerd tijdens AI-workshop",
+    date: "2025-11-14",
+    tags: ["code", "probleem", "oplossing", "lessons learned", "reflectie", "planning"],
+    excerpt: "Week 7: complexe handler en FreeMarker-template aan het bouwen voor een klant met uitdagende sorteringslogica; daarnaast een leerrijke AI-workshop gevolgd.",
+    content: `## Highlights
+- Gestart (en deels gevorderd) met een vrij uitgebreide handler voor een klant: nieuwe voor mij, zowel conceptueel als qua implementatie.
+- Werken in FreeMarker om dynamische weergave en sortering op te zetten (ook volledig nieuw voor mij).
+- Sorteringslogica is complex: meerdere criteria moeten combineerbaar zijn.
+- AI-workshop gevolgd en veel nieuwe inzichten opgedaan over hoe AI procesoptimalisatie kan ondersteunen binnen DeskDrive.
+- Planning gemaakt om alles deze week af te ronden ondanks de leercurve.
+
+## Probleem
+De taak vraagt een combinatie van:
+- Nieuwe handler die data voorbereid voor de view.
+- FreeMarker template met conditionele weergave en sortering.
+- Meerdere sorteercriteria (bijv. datum, status, prioriteit) die flexibel moeten blijven.
+De uitdaging: ik ken zowel het handler-patroon binnen dit project als FreeMarker nog niet goed, wat zorgt voor vertraging en twijfel over best practices.
+
+## Oplossing / Aanpak
+- Eerst structuur van bestaande handlers bekeken om een patroon te herkennen.
+- Sorteringslogica in stappen opgesplitst: basis sorteerfunctie, daarna uitbreiden met combinaties.
+- Tussentijdse notities toegevoegd in code om later te kunnen refactoren zonder contextverlies.
+
+## Lessons learned
+- Handlers structureren rond duidelijke verantwoordelijkheden maakt latere uitbreiding eenvoudiger.
+- Complexe sortering beter modulair opbouwen (één criterium tegelijk) dan alles ineens.
+- AI kan ook intern helpen bij testdata-voorbereiding — ideeën voor implementatie.
+- Planning onder druk werkt alleen als ik expliciet grenzen trek.
+
+## Reflectie
+Het voelde deze week soms alsof ik te traag ging, maar terugkijkend heb ik veel fundamentele dingen geleerd die de rest van de ontwikkeling sneller gaan maken en heb gehoord van stage begeleider dat ik goed bezig was. FreeMarker was vreemd in het begin, maar begint logisch te worden nu ik de flow tussen handler en template zie.
+
+## Planning
+- Handler afronden: alle sorteeropties stabiel maken.
+- FreeMarker template opschonen en commentaar herleiden naar duidelijke documentatie.
+- Edge cases toevoegen aan sortering (lege waarden, gelijke prioriteiten).
+- Feedbackmoment vragen over structuur van handler voordat ik optimaliseer.`
+  }
 ];
 
 export const allTags = TAGS;
