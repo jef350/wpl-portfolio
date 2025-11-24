@@ -220,7 +220,53 @@ Het voelde deze week soms alsof ik te traag ging, maar terugkijkend heb ik veel 
 - FreeMarker template opschonen en commentaar herleiden naar duidelijke documentatie.
 - Edge cases toevoegen aan sortering (lege waarden, gelijke prioriteiten).
 - Feedbackmoment vragen over structuur van handler voordat ik optimaliseer.`
-  }
+  },
+{
+  "slug": "week-8-freemarker-handler",
+  "title": "Week 8 — Moeilijke week met FreeMarker & sortering, maar veel bijgeleerd",
+  "date": "2025-11-21",
+  "tags": ["code", "probleem", "oplossing", "lessons learned", "reflectie", "planning"],
+  "excerpt": "Week 8: uitdagende week met sortering, foute documentatie en veel nieuwe inzichten in FreeMarker.",
+  "content": `
+## Highlights
+- Diepgaand gewerkt aan sorteringsfunctionaliteit voor een klant, ondanks beperkte en deels foutieve documentatie.
+- Veel bijgeleerd over hoe datums, velden en koppelingen intern werken binnen DeskDrive.
+- Door intensief debuggen beter inzicht gekregen in FreeMarker en het handler-systeem.
+- Duidelijk geworden hoe belangrijk correcte input en volledige info is bij complexe businesslogica.
+
+## Probleem
+De bedoeling was om de volledige sortering deze week af te ronden, maar dat is niet gelukt door meerdere omstandigheden:
+- De informatie die ik kreeg over de sortering bleek onvolledig en later zelfs fout.
+- Door mijn beperkte kennis van het DeskDrive-portaal vulde ik bepaalde datums en velden verkeerd in, wat foutieve sortering opleverde.
+- Hoewel ik vroeg of het aan mijn code lag of aan de input, kreeg ik te horen dat het probleem in de code zat, waardoor ik lang in de verkeerde richting zocht.
+- Later bleek dat zowel de input als het document met instructies fouten bevatte.
+- De tijd werd bovendien beperkt door de voorbereidingen en het opruimen voor het 10-jarig bestaan van DeskDrive.
+
+## Oplossing / Aanpak
+- Veel gedebugd om te achterhalen waarom sortering fout liep, uiteindelijk gevonden dat de oorzaak niet de code was maar fout ingevulde of fout gelinkte velden.
+- Informatie herhaaldelijk geverifieerd bij collega’s en werknemer nadat eerdere instructies onnauwkeurig bleken.
+- Sorteringslogica opnieuw opgebouwd op basis van correcte inzichten.
+- Alles beter gedocumenteerd zodat fouten minder snel terugkomen.
+
+## Lessons learned
+- Goede input is even belangrijk als correcte code — foutieve data leidt altijd tot foutieve sortering.
+- Documentatie niet blind vertrouwen: altijd valideren tegen het echte systeem.
+- In het begin van een taak beter en duidelijker doorvragen naar de exacte werking.
+- FreeMarker en de interne structuur van DeskDrive beginnen steeds logischer te worden door hands-on ervaring.
+- Complexe taken vragen om duidelijke communicatie en realistische verwachtingen.
+
+## Reflectie
+Hoewel het een moeilijke en soms frustrerende week was, heb ik enorm veel geleerd. Zowel technisch (FreeMarker, handler-logica, dataverwerking) als procesmatig (duidelijker info vragen, documentatie kritisch bekijken). Ondanks dat de planning niet gehaald is, voel ik dat de kennis die ik nu heb opgebouwd de komende weken veel tijd gaat besparen.
+
+## Planning
+- Sorteringslogica finaliseren op basis van de juiste en volledige info.
+- Ontbrekende functies toevoegen die pas later duidelijk werden.
+- Samen met collega het volledige document en de sorteercriteria nalopen voor correcte validatie.
+- FreeMarker-template verder opschonen en foutgevoelige stukken verbeteren.
+- Edge cases toevoegen (lege waarden, gelijke datums, foutieve combinaties).
+`
+}
+
 ];
 
 export const allTags = TAGS;
