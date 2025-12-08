@@ -265,7 +265,62 @@ Hoewel het een moeilijke en soms frustrerende week was, heb ik enorm veel geleer
 - FreeMarker-template verder opschonen en foutgevoelige stukken verbeteren.
 - Edge cases toevoegen (lege waarden, gelijke datums, foutieve combinaties).
 `
+},
+{
+  slug: "week-9-klantenmeeting-mailcampagne-en-tests-bundelen",
+  title: "Week 9 — Klantenmeeting, mailcampagne en testen bundelen",
+  date: "2025-11-28",
+  tags: ["code", "wins", "lessons learned", "reflectie", "planning", "feedback"],
+  excerpt: "Week 9: een meeting bijgewoond met een klant die ging starten bij DeskDrive, een mailcampagne opgesteld en begonnen met het bundelen van alle testen voor productie.",
+  content: `## Highlights
+- Meeting bijgewoond met een klant die binnenkort volledig met DeskDrive begint te werken.
+- Tijdens de meeting gezien hoe de kennismaking en onboarding met nieuwe klanten verloopt.
+- Er is een moment afgesproken waarop DeskDrive medewerkers de klant op locatie gaan ondersteunen en hun werknemers trainen in het gebruik van het platform.
+- Ik heb gevraagd of ik die training op locatie mag meevolgen en dat werd goedgekeurd.
+- Deze week ook een mailcampagne opgemaakt voor een klant via het DeskDrive-platform.
+- Verder opnieuw gestart met testautomatisatie.
+
+## Lessons learned
+- Een duidelijke onboarding en klantcommunicatie zijn essentieel voor een succesvolle start met een platform.
+- Fysieke training op locatie is soms nodig om gebruikers efficiënt met het systeem te leren werken.
+- Mailcampagnes binnen DeskDrive bieden veel mogelijkheden, maar vragen nauwkeurige configuratie.
+- Door alle testen te bundelen wordt het makkelijker om ze klaar te zetten voor productie.
+
+## Reflectie
+Het was leerrijk om te zien hoe een klantmeeting verloopt en hoe DeskDrive nieuwe klanten begeleidt. Dat ik later ook mee mag naar de klant zorgt ervoor dat ik nog beter zal begrijpen hoe het platform in de praktijk gebruikt wordt. De mailcampagne was een leuke afwisseling en de testen bundelen geeft een beter overzicht van ons werk.
+
+## Planning
+- Verder testen bundelen zodat ze vlot in productie kunnen worden gezet.
+- Meer inzicht krijgen in klantflows tijdens de geplande training op locatie.
+- Blijven werken aan optimalisaties in de teststructuur en rapportering.`
+},
+{
+  slug: "week-10-debuggen-refactoren-en-pdf-builder-onderzoek",
+  title: "Week 10 — Debuggen, refactoren en onderzoek naar PDF-builder",
+  date: "2025-12-05",
+  tags: ["code", "probleem", "oplossing", "lessons learned", "reflectie", "planning"],
+  excerpt: "Week 10: vooral gefocust op het debuggen en refactoren van de testen, en gestart met onderzoek naar een PDF-builder gelijkaardig aan Grapes.js maar dan voor FreeMarker.",
+  content: `## Highlights
+- Veel tijd gespendeerd aan het debuggen en refactoren van bestaande testen.
+- Door de grote hoeveelheid testen vraagt dit veel aandacht om alles stabiel en overzichtelijk te krijgen.
+- Nieuw project gestart: onderzoeken hoe we een soort Grapes.js-editor kunnen opzetten voor het maken van PDF-templates met FreeMarker.
+- Doel: klanten een gebruiksvriendelijke manier geven om zelf PDF-documenten te maken binnen DeskDrive.
+
+## Lessons learned
+- Refactoren van testen is intensief werk maar noodzakelijk voor de toekomst van automatisatie.
+- Efficiënte teststructuur zorgt ervoor dat fouten sneller opgespoord worden.
+- PDF-generatie met FreeMarker vraagt een andere aanpak dan mailcampagnes via Grapes.js.
+
+## Reflectie
+Hoewel het deze week maar twee grote taken waren, voelde het als een drukke en technische week. Testen debuggen lijkt soms repetitief, maar het resultaat is dat alles betrouwbaarder wordt voor productie. Het nieuwe PDF-project is uitdagend maar ook spannend — dit kan een grote verbetering zijn voor klanten die veel documenten genereren.
+
+## Planning
+- Testen verder optimaliseren en verbeteren waar nodig.
+- Meer onderzoek doen naar tools en mogelijke workflows voor PDF-opmaak in FreeMarker.
+- Prototype maken zodat collegas en klanten feedback kunnen geven op de aanpak.`
 }
+
+
 
 ];
 
