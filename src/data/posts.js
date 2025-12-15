@@ -318,7 +318,36 @@ Hoewel het deze week maar twee grote taken waren, voelde het als een drukke en t
 - Testen verder optimaliseren en verbeteren waar nodig.
 - Meer onderzoek doen naar tools en mogelijke workflows voor PDF-opmaak in FreeMarker.
 - Prototype maken zodat collegas en klanten feedback kunnen geven op de aanpak.`
+},
+{
+  slug: "week-11-klantdomein-aanpassingen-en-vertrouwen",
+  title: "Week 11 — Klantdomein-aanpassingen en groeiend vertrouwen",
+  date: "2025-12-12",
+  tags: ["code", "wins", "lessons learned", "reflectie", "planning", "feedback"],
+  excerpt: "Week 11: aanpassingen uitgevoerd in het productiedomein van een klant, FreeMarker-templates aangepast en manuele correcties gedaan aan verzendnota’s en stock — een duidelijke blijk van vertrouwen.",
+  content: `## Highlights
+- Aanpassingen uitgevoerd voor een klant binnen hun productiedomein.
+- FreeMarker-template aangepast specifiek volgens de wensen en noden van de klant.
+- Manueel verzendnota’s en stock moeten aanpassen in het productiedomein.
+- Deze aanpassingen waren cruciaal omdat ze gelinkt zijn aan de prijsberekening.
+- De klant en het team vroegen expliciet aan mij om deze wijzigingen uit te voeren.
+
+## Lessons learned
+- Werken in een productiedomein vraagt extra aandacht en verantwoordelijkheid.
+- Kleine fouten in stock of verzendnota’s kunnen een grote impact hebben op prijs en facturatie.
+- FreeMarker-templates aanpassen voor echte klanten verschilt sterk van test- of oefenomgevingen.
+- Vertrouwen krijg je door eerder correct en nauwkeurig werk af te leveren.
+
+## Reflectie
+Deze week voelde als een belangrijke stap in mijn stage. Het feit dat ik gevraagd werd om wijzigingen te doen in het productiedomein van een klant gaf mij het gevoel dat ik echt vertrouwen krijg binnen het team. De taken vroegen nauwkeurigheid en verantwoordelijkheidszin, zeker omdat alles gelinkt was aan prijzen. Dat maakte het spannend, maar tegelijk ook motiverend.
+
+## Planning
+- Verder werken aan klantgerichte aanpassingen in FreeMarker.
+- Extra aandacht besteden aan validatie en controle bij productiewijzigingen.
+- Feedback vragen over de uitgevoerde aanpassingen om fouten in de toekomst te vermijden.
+- Blijven groeien in zelfstandigheid en verantwoordelijkheid binnen klantprojecten.`
 }
+
 
 
 
