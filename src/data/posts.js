@@ -351,7 +351,7 @@ Deze week voelde als een belangrijke stap in mijn stage. Het feit dat ik gevraag
   slug: "week-12-opleidingsdag-en-bedrijfsdynamiek",
   title: "Week 12 — Opleidingsdag, bedrijfsdynamiek en groeien door uitleg te geven",
   date: "2025-12-19",
-  tags: ["lessons learned", "reflectie", "planning", "feedback"],
+  tags: ["lessons learned", "reflectie", "planning", "feedback","fails"],
   excerpt: "Week 12: onverwachte meeting over stopzetting van een samenwerking, beperkte voorbereiding voor de opleidingsdag en veel bijgeleerd door het portaal zelf te moeten uitleggen aan de klant.",
   content: `## Highlights
 - Eerder die week onverwacht in een meeting geroepen zonder vooraf te weten wat de reden was.
