@@ -346,11 +346,41 @@ Deze week voelde als een belangrijke stap in mijn stage. Het feit dat ik gevraag
 - Extra aandacht besteden aan validatie en controle bij productiewijzigingen.
 - Feedback vragen over de uitgevoerde aanpassingen om fouten in de toekomst te vermijden.
 - Blijven groeien in zelfstandigheid en verantwoordelijkheid binnen klantprojecten.`
+}{
+  slug: "week-12-opleidingsdag-en-bedrijfsdynamiek",
+  title: "Week 12 — Opleidingsdag, bedrijfsdynamiek en groeien door uitleg te geven",
+  date: "2025-12-19",
+  tags: ["lessons learned", "reflectie", "planning", "feedback"],
+  excerpt: "Week 12: onverwachte meeting over stopzetting van een samenwerking, beperkte voorbereiding voor de opleidingsdag en veel bijgeleerd door het portaal zelf te moeten uitleggen aan de klant.",
+  content: `## Highlights
+- Eerder die week onverwacht in een meeting geroepen zonder vooraf te weten wat de reden was.
+- Tijdens het overleg werd duidelijk gemaakt dat de samenwerking met een persoon werd stopgezet.
+- Dit gaf een realistisch beeld van hoe een bedrijf omgaat met het beëindigen van samenwerkingen en welke impact dit heeft op een team met een beperkt aantal werknemers.
+- Door deze situatie had ik minder tijd en mogelijkheden om mij voor te bereiden op de opleidingsdag later die week.
+- Beperkte voorbereiding ook doordat ik geen volledige toegang had tot het klantdomein en de stagebegeleider het erg druk had.
+- De avond voor de opleiding kregen we nog een korte, snelle uitleg over het portaal.
+- De opleidingsdag op locatie verliep daardoor wat vermoeizamer, maar was tegelijk enorm leerrijk.
+- Door zelf het portaal te moeten uitleggen aan de klant heb ik het systeem beter leren begrijpen.
+- Mijn appreciatie voor deze kans expliciet uitgesproken naar de klant en naar Ella.
+- De dag nadien een meeting gehad met de andere stagiairs om alle notities samen te voegen.
+- Samen een duidelijk en overzichtelijk document opgesteld en bezorgd aan Ella met alle bevindingen.
+
+## Lessons learned
+- Interne bedrijfsbeslissingen hebben directe invloed op planning, voorbereiding en werkdruk.
+- Het beëindigen van een samenwerking vraagt duidelijke communicatie en heeft impact op een klein team.
+- Door iets uit te leggen aan anderen leer je het zelf pas écht goed begrijpen.
+- Opleidingen geven vraagt flexibiliteit, zeker wanneer voorbereidingstijd beperkt is.
+- Samenwerken en notities bundelen zorgt voor betere en completere documentatie.
+
+## Reflectie
+Deze week was anders dan verwacht en begon met een onverwachte en gevoelige situatie binnen het bedrijf. Dat gaf me een realistischer beeld van hoe een professionele omgeving omgaat met moeilijke beslissingen. De opleidingsdag zelf was uitdagend door de beperkte voorbereiding, maar achteraf bekeken ook enorm waardevol. Door het portaal zelf te moeten uitleggen, merkte ik hoeveel ik al had bijgeleerd. Ik ben dankbaar dat ik deze kans heb gekregen en voel dat dit mijn vertrouwen en inzicht in het systeem verder heeft versterkt.
+
+## Planning
+- Verder verdiepen in het portaal zodat toekomstige opleidingen vlotter verlopen.
+- De gemaakte notities en documentatie blijven aanvullen en verbeteren.
+- Feedback verwerken uit de opleidingsdag om uitleg en ondersteuning te optimaliseren.
+- Blijven groeien in communicatie en kennisoverdracht richting klanten.`
 }
-
-
-
-
 ];
 
 export const allTags = TAGS;
