@@ -346,7 +346,8 @@ Deze week voelde als een belangrijke stap in mijn stage. Het feit dat ik gevraag
 - Extra aandacht besteden aan validatie en controle bij productiewijzigingen.
 - Feedback vragen over de uitgevoerde aanpassingen om fouten in de toekomst te vermijden.
 - Blijven groeien in zelfstandigheid en verantwoordelijkheid binnen klantprojecten.`
-}{
+},
+{
   slug: "week-12-opleidingsdag-en-bedrijfsdynamiek",
   title: "Week 12 — Opleidingsdag, bedrijfsdynamiek en groeien door uitleg te geven",
   date: "2025-12-19",
