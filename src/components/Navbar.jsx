@@ -7,6 +7,7 @@ export default function Navbar() {
       <div className="navbar-links">
         <Link to="/" className="navbar-link">Home</Link>
         <Link to="/blog" className="navbar-link">Blog</Link>
+        <Link to="/blog/alles" className="navbar-link">Alle blogs</Link>
         <Link to="/about" className="navbar-link">About</Link>
       </div>
       <img src={deskdriveLogo} alt="DeskDrive logo" className="navbar-logo" />

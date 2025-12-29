@@ -6,6 +6,7 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Blog from "./pages/Blog.jsx";
 import Post from "./pages/Post.jsx";
+import AllBlogsFull from "./pages/AllBlogsFull.jsx";
 import './styles/index.css';
 
 const router = createBrowserRouter([
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
     { path: "/", element: <Home /> },
     { path: "/about", element: <About /> },
     { path: "/blog", element: <Blog /> },
+    { path: "/blog/alles", element: <AllBlogsFull /> },
     { path: "/blog/:slug", element: <Post /> },
   ]},
 ]);
