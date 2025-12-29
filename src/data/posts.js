@@ -381,6 +381,34 @@ Deze week was anders dan verwacht en begon met een onverwachte en gevoelige situ
 - De gemaakte notities en documentatie blijven aanvullen en verbeteren.
 - Feedback verwerken uit de opleidingsdag om uitleg en ondersteuning te optimaliseren.
 - Blijven groeien in communicatie en kennisoverdracht richting klanten.`
+},
+{
+  slug: "week-13-feestdagen-opleidingsdag-en-documentatie",
+  title: "Week 13 — Feestdagen, opleidingsdag bij klant en afronding van templates",
+  date: "2025-12-26",
+  tags: ["lessons learned", "reflectie", "planning", "feedback"],
+  excerpt: "Week 13: rustige week door de feestdagen, opnieuw meegegaan naar een klant voor een opleidingsdag, templates gemaakt voor klanten en verder gewerkt aan het einddocument.",
+  content: `## Highlights
+- Deze week verliep rustiger door de feestdagen.
+- Opnieuw mee mogen gaan met Ella naar een klant voor een opleidingsdag.
+- Tijdens de opleiding extra inzicht gekregen in hoe klanten het DeskDrive-platform gebruiken.
+- Templates gemaakt voor klanten op basis van hun noden en vragen.
+- Verder gewerkt aan het einddocument van de stage.
+
+## Lessons learned
+- Opleidingsdagen bij klanten geven een veel duidelijker beeld van hoe het platform in de praktijk wordt gebruikt.
+- Klanten denken anders dan ontwikkelaars: duidelijke templates en structuur zijn cruciaal.
+- Rustigere periodes zijn ideaal om documentatie af te werken en alles samen te brengen.
+- Herhaling van opleidingsmomenten helpt om processen en uitleg te verfijnen.
+
+## Reflectie
+Hoewel er deze week inhoudelijk minder ontwikkeling was door de feestdagen, was ze toch waardevol. Opnieuw mee mogen gaan naar een klant bevestigde hoe belangrijk duidelijke uitleg en goed opgebouwde templates zijn. Het verder afwerken van het einddocument voelde als een logisch moment om alles wat ik de voorbije weken geleerd heb samen te brengen en te reflecteren over mijn groei tijdens de stage.
+
+## Planning
+- Einddocument verder afronden en finaliseren.
+- Templates blijven verbeteren op basis van klantfeedback.
+- De opgedane inzichten uit de opleidingsdag meenemen in toekomstige documentatie en uitleg.
+- Voorbereiden op de afronding en evaluatie van de stage.`
 }
 ];
 
