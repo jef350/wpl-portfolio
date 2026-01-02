@@ -409,7 +409,37 @@ Hoewel er deze week inhoudelijk minder ontwikkeling was door de feestdagen, was 
 - Templates blijven verbeteren op basis van klantfeedback.
 - De opgedane inzichten uit de opleidingsdag meenemen in toekomstige documentatie en uitleg.
 - Voorbereiden op de afronding en evaluatie van de stage.`
+},
+{
+  slug: "week-14-rustige-feestdagen-en-pdf-builder-voorbereiding",
+  title: "Week 14 — Rustige feestdagen, templates aanpassen en start van PDF-builder",
+  date: "2026-01-02",
+  tags: ["lessons learned", "reflectie", "planning", "code"],
+  excerpt: "Week 14: rustige week door de feestdagen, templates aangepast, testdocumentatie vertaald naar Nederlands en Engels en gestart met een Grapes.js-achtig concept voor FreeMarker.",
+  content: `## Highlights
+- Deze week verliep vrij rustig door de feestdagen.
+- Minder werkuren en beperkte mogelijkheden om grote taken op te nemen.
+- Enkele bestaande templates verder aangepast en opgeschoond.
+- Documentatie voor de testen aangepast en vertaald naar twee talen: Nederlands en Engels.
+- Gestart met het uitdenken en opzetten van een soort Grapes.js-achtige editor, maar dan specifiek voor FreeMarker.
+- Doel van dit project: offertes en facturen visueel kunnen opbouwen via blokken in plaats van manuele code.
+
+## Lessons learned
+- Rustige periodes zijn ideaal om documentatie en bestaande templates te verbeteren.
+- Meertalige documentatie is belangrijk voor duidelijkheid en toekomstig gebruik.
+- Het vertalen van technische documentatie dwingt je om processen scherper en duidelijker te formuleren.
+- Een visuele editor bouwen bovenop FreeMarker vraagt een andere manier van denken dan klassieke template-aanpassingen.
+
+## Reflectie
+Hoewel deze week inhoudelijk rustiger was door de feestdagen, voelde ze toch nuttig aan. Het aanpassen van templates en documentatie zorgde voor meer overzicht en consistentie. Het nadenken over een Grapes.js-achtig systeem voor FreeMarker is technisch uitdagend, maar ook erg interessant. Dit project heeft potentieel om het maken van offertes en facturen voor klanten veel toegankelijker te maken.
+
+## Planning
+- Verder werken aan het concept en de structuur van de FreeMarker PDF-builder.
+- Bestaande templates blijven verbeteren waar nodig.
+- Testdocumentatie verder verfijnen en controleren op consistentie tussen beide talen.
+- Na de feestperiode opnieuw meer focus leggen op grotere technische taken.`
 }
+
 ];
 
 export const allTags = TAGS;
