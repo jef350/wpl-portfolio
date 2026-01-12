@@ -438,6 +438,39 @@ Hoewel deze week inhoudelijk rustiger was door de feestdagen, voelde ze toch nut
 - Bestaande templates blijven verbeteren waar nodig.
 - Testdocumentatie verder verfijnen en controleren op consistentie tussen beide talen.
 - Na de feestperiode opnieuw meer focus leggen op grotere technische taken.`
+},
+{
+  slug: "week-15-klantbezoek-helppaginas-en-pdf-poc",
+  title: "Week 15 — Klantbezoek, helppagina’s en proof-of-concept voor PDF-builder",
+  date: "2026-01-12",
+  tags: ["feedback", "wins", "code", "lessons learned", "reflectie", "planning"],
+  excerpt: "Week 15: meegegaan naar een klant om feedback te horen, los daarvan helppagina’s opgesteld voor andere klanten en een klein proof-of-concept gebouwd voor een visuele PDF-builder voor facturen en offertes.",
+  content: `## Highlights
+- Meegegaan met Ella naar een klant om feedback te horen over het gebruik van DeskDrive in de praktijk.
+- Tijdens het klantbezoek gefocust op luisteren en observeren hoe het portaal effectief gebruikt wordt.
+- Feedback genoteerd om later intern te bespreken.
+- Los van dit klantbezoek meerdere helppagina’s uitgewerkt.
+- Deze helppagina’s waren bedoeld voor andere klanten en algemene ondersteuning.
+- Helppagina’s opgesteld op basis van gekende vragen, interne kennis en eerdere ervaringen.
+- Klein technisch projectje opgezet om te onderzoeken of een visuele editor mogelijk is voor facturen en offertes.
+- Inspiratie genomen uit Grapes.js, dat binnen DeskDrive gebruikt wordt voor e-mails.
+- Een eenvoudige proof-of-concept gebouwd gericht op PDF-output (facturen en offertes).
+
+## Lessons learned
+- Klantbezoeken geven een realistischer beeld van hoe het platform wordt gebruikt, maar staan los van documentatie voor andere klanten.
+- Helppagina’s moeten algemeen en duidelijk genoeg zijn om door verschillende klanten gebruikt te worden.
+- Documentatie maken vraagt een andere mindset dan development.
+- Bestaande tools en concepten (zoals Grapes.js) kunnen inspireren voor nieuwe toepassingen.
+- Proof-of-concepts zijn ideaal om technische haalbaarheid te verkennen zonder grote impact.
+
+## Reflectie
+Het klantbezoek gaf mij waardevolle inzichten in het dagelijkse gebruik van DeskDrive, terwijl het uitwerken van helppagina’s me dwong om het platform vanuit een breder, klantonafhankelijk perspectief te bekijken. Het kleine PDF-project vond ik technisch zeer boeiend en bevestigde dat een visuele manier om facturen en offertes op te bouwen realistisch en toekomstgericht is.
+
+## Planning
+- Feedback van het klantbezoek intern bespreken en documenteren.
+- Helppagina’s verder uitbreiden en verfijnen voor andere klanten.
+- Proof-of-concept voor de PDF-builder verder structureren.
+- Overleggen met het team over mogelijke volgende stappen voor een volwaardige editor.`
 }
 
 ];
